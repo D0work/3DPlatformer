@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "CInemachineControls",
+    "maps": [
+        {
+            "name": "cinemachine",
+            "id": "84075c79-062f-4d1f-a752-e0e8141fd7f7",
+            "actions": [
+                {
+                    "name": "camera",
+                    "type": "PassThrough",
+                    "id": "28298983-44e1-4e24-ac5b-4107347b3002",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "daca8dc7-07a5-48d9-bc89-0abe23c699bb",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ce0af8c0-e0b0-4622-b5f6-045105929e42",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "407ad95b-ae2c-4a9d-9862-a9183d0ecd7b",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
