@@ -1,24 +1,26 @@
-# Underground Shoot
+# WhiteRobotInvasion
 
-A **subterranean-themed arcade shooter** with unique mechanics like energy shields and temporary platform creation. Explore dark underground levels filled with hazards and strategic challenges.
+A **sci-fi platformer** set in icy environments, where survival depends on shields, platform creation, and managing the cold.
 
 ## 🎮 Controls & Player Abilities
 - **Movement**: `W` `A` `S` `D`
 - **Jump**: `Spacebar`
-- **Energy Shield**: Right-click to activate a 5-second shield (cooldown applies)
-- **Platform Creation**: Press `P` to generate a temporary platform (cooldown applies)
+- **Shield**: Press `Shift` to activate a 5-second energy shield (cooldown applies)
+- **Platform Creation**: Press `Q` to generate a temporary platform (cooldown applies)
+- **Thermal Mechanic**: Stay close to fire sources to avoid losing energy in the cold
 
 ## 🌌 Visual & Art Direction
-- **Theme**: Subterranean — dark, mysterious, and atmospheric
-- **Level Design**: Brand-new underground stage with unique hazards
+- **Theme**: Ice — white, minimalistic, and atmospheric
+- **Aesthetics**: Smooth, modern, and refined after multiple iterations
+- **Music**: Cool, ambient soundtrack to match the frozen world
 
-## 🧩 Core Concept
-- **Game Concept & Mechanics**: Designed and developed by RamiKDCreate  
-- **Artistic Style**: Customized to reflect the underground vibe
+## 🧩 Level Design
+- Starts with a simplified introductory area
+- Progressively more difficult as you advance
 
 ## 📦 Installation
-Download the game on [itch.io](https://ramikdcreate.itch.io/underground-shoot).
+Download the game on [itch.io](https://ramikdcreate.itch.io/whiterobotinvasion).
 
 ## ✨ Credits
-- **Game Design & Programming**: RamiKDCreate  
-- **Art Direction**: Custom underground aesthetic
+- **Game Concept & Mechanics**: RamiKDCreate  
+- **Art Direction**: Iterated to reflect the icy theme
