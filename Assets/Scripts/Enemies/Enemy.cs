@@ -116,7 +116,7 @@ public class Enemy : MonoBehaviour
             Vector3 desiredMovement = CalculateDesiredMovement();
             Quaternion desiredRotation = CalculateDesiredRotation();
 
-            enemyRigidbody.velocity = Vector3.zero;
+            enemyRigidbody.linearVelocity = Vector3.zero;
             enemyRigidbody.angularVelocity = Vector3.zero;
 
             enemyRigidbody.MovePosition(desiredMovement);
@@ -196,7 +196,7 @@ public class Enemy : MonoBehaviour
         {
             actionState = ActionStates.Idle;
         }
-        if (canMove && enemyRigidbody != null && enemyRigidbody.velocity.magnitude > 0.1f)
+        if (canMove && enemyRigidbody != null && enemyRigidbody.linearVelocity.magnitude > 0.1f)
         {
             movementState = MovementStates.Moving;
         }
