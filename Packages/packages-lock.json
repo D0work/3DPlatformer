@@ -68,7 +68,7 @@
       "dependencies": {
         "com.unity.probuilder": "6.1.2",
         "com.unity.formats.fbx": "5.1.6",
-        "com.unity.terrain-tools": "5.3.2"
+        "com.unity.terrain-tools": "5.3.3"
       }
     },
     "com.unity.formats.fbx": {
@@ -223,11 +223,11 @@
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "17.3.0",
-        "com.unity.searcher": "4.9.3"
+        "com.unity.searcher": "4.9.5"
       }
     },
     "com.unity.terrain-tools": {
-      "version": "5.3.2",
+      "version": "5.3.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {
