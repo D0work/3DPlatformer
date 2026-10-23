@@ -3386,9 +3386,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5916244888173478419, guid: 96a99c7a92a1dd547bcc47238b3e504d,
         type: 3}
-      propertyPath: m_audioClip
+      propertyPath: m_Volume
+      value: 0.717
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916244888173478419, guid: 96a99c7a92a1dd547bcc47238b3e504d,
+        type: 3}
+      propertyPath: m_Resource
       value: 
       objectReference: {fileID: 8300000, guid: e53179e6504e99449b5970124891936f, type: 3}
+    - target: {fileID: 5916244888173478419, guid: 96a99c7a92a1dd547bcc47238b3e504d,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6801140286709560284, guid: 96a99c7a92a1dd547bcc47238b3e504d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3554,6 +3564,7 @@ Terrain:
   m_AllowAutoConnect: 1
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
+  m_EnableHeightmapLODFrustumCulling: 1
   m_TreeMotionVectorModeOverride: 3
 --- !u!4 &658019039
 Transform:

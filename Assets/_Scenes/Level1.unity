@@ -13769,6 +13769,7 @@ Terrain:
   m_AllowAutoConnect: 1
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
+  m_EnableHeightmapLODFrustumCulling: 1
   m_TreeMotionVectorModeOverride: 3
 --- !u!1 &943375375 stripped
 GameObject:
@@ -23949,6 +23950,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LayerMask.m_Bits
       value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916244888173478419, guid: 96a99c7a92a1dd547bcc47238b3e504d,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.721
       objectReference: {fileID: 0}
     - target: {fileID: 6801140286709560284, guid: 96a99c7a92a1dd547bcc47238b3e504d,
         type: 3}
